@@ -1,0 +1,22 @@
+drop database elibrary;
+
+
+create database elibrary;
+use elibrary;
+
+create table register(username varchar(50) primary key,
+password varchar(50),
+contact varchar(12),
+email varchar(50),
+address varchar(80));
+
+create table addbook(book_id int,
+book_name varchar(50),
+description varchar(250),
+book_date varchar(20),
+book_type varchar(20),
+file_name varchar(50));
+
+
+
+
